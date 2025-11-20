@@ -33,7 +33,7 @@ console.log(a)
 /**------------------------------Scope----------------------------------------------- */
 
 // global,block,functional
-
+/*
 var a = 12;  // yeh pure code me kahi bhi use ho sakta ha = global
 
 function abc(){
@@ -45,3 +45,14 @@ function abc(){
     let a = 4; // yeh chal jayega 
     // curly braces ke andar ke variables hote hai block scope
 }
+    */
+
+/**--------------------------------reassignment and redeclaration---------------------- */
+
+var a = 13;
+a = 56;  // reassignment
+
+var a = 78996; // redeclaration
+
+let b = 456;
+b = 89;
