@@ -62,5 +62,14 @@ function abc(){
 // console.log(a)
 // let a = 56;
 
-console.log(b)
-var b = 456;
+// console.log(b)
+// var b = 456;
+
+/**------------------------------Hoisting------------------------ */
+
+// Ek variable ko jab js me banate hai toh voh variable do hisso me tut jata hai uska
+// declare part upper chale jata hai aur uska initialize part niche rah jata hai
+
+// var a = undefined;
+console.log(a)
+var a = 12;  // kuch is tarike se
