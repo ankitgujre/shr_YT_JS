@@ -7,12 +7,41 @@
 
 // var let const - line by line comparision
 var a = 12;    // globally use kr sakte hai
+var a = 5000000000000000;
 console.log(a)
 
 // decalaration and initialization
 
-var a; // yeh hota hai declare karna
-var b = 15;  // yeh hota hai declare and initialize karna
+// var a; // yeh hota hai declare karna
+// var b = 15;  // yeh hota hai declare and initialize karna
 
 // initialize ka matlab hota hai 1st value dena
 
+// var window me add hota hai
+// jab bhi variable window me add hai samjhao vo var se create hua hai
+
+// var yeh hamesa function scoped hota hai
+// var ko firse declare karsakte hai error nahi ayega
+
+// let a = 5223;
+// console.log(a)
+
+// const pi = 3.14;
+// console.log(pi)
+
+
+/**------------------------------Scope----------------------------------------------- */
+
+// global,block,functional
+
+var a = 12;  // yeh pure code me kahi bhi use ho sakta ha = global
+
+function abc(){
+    var a = 45;  // yeh is function me kahi bhi use ho sakta hai = functional
+}
+
+{
+    // var a = 55;  // agar kisi curly braces me variable banaoge toh var nahi chalega
+    let a = 4; // yeh chal jayega 
+    // curly braces ke andar ke variables hote hai block scope
+}
