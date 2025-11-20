@@ -6,9 +6,9 @@
 /**-----------------------------Variables and Decalarations---------------------------- */
 
 // var let const - line by line comparision
-var a = 12;    // globally use kr sakte hai
-var a = 5000000000000000;
-console.log(a)
+// var a = 12;    // globally use kr sakte hai
+// var a = 5000000000000000;
+// console.log(a)
 
 // decalaration and initialization
 
@@ -49,10 +49,18 @@ function abc(){
 
 /**--------------------------------reassignment and redeclaration---------------------- */
 
-var a = 13;
-a = 56;  // reassignment
+// var a = 13;
+// a = 56;  // reassignment
 
-var a = 78996; // redeclaration
+// var a = 78996; // redeclaration
 
-let b = 456;
-b = 89;
+// let b = 456;
+// b = 89;
+
+
+/*-----------------Temporal Dead Zone------------------------*/
+// console.log(a)
+// let a = 56;
+
+console.log(b)
+var b = 456;
